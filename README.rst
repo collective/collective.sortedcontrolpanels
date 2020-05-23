@@ -6,33 +6,19 @@
 collective.sortedcontrolpanels
 ==============================
 
-Tell me what your product does
+This sorts control panels alphabetically by title.
+
+Plone used to do that, but in 2015 a change was quietly made that sorted instead by control panel IDs which are hidden, obscure, and arbitrarily-given.
+
+On May 6, 2020, this pull request reverts Plone back to sorting control panels by title.
+
+Until a new Plone release (> 5.2.1) includes that merged PR, use this add-on to accomplish the same.
+
 
 Features
 --------
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
+- sorts control panels sensibly in alphabetical order, by title
 
 
 Installation
@@ -56,14 +42,6 @@ Contribute
 
 - Issue Tracker: https://github.com/collective/collective.sortedcontrolpanels/issues
 - Source Code: https://github.com/collective/collective.sortedcontrolpanels
-- Documentation: https://docs.plone.org/foo/bar
-
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
 
 
 License
