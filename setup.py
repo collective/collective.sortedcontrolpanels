@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='collective.sortedcontrolpanels',
-    version='1.0a1',
+    version='1.0a2.dev0',
     description="sorts control panels alphabetically by title (broken since 2015, but will be in Plone 5.2.2)",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
