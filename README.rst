@@ -10,7 +10,7 @@ This sorts control panels alphabetically by title.
 
 Plone used to do that, but in 2015 a change was quietly made that sorted instead by control panel IDs which are hidden, obscure, and arbitrarily-given.
 
-On May 6, 2020, this pull request reverts Plone back to sorting control panels by title.
+On May 6, 2020, this pull request `PR 3093 <https://github.com/plone/Products.CMFPlone/pull/3093>`_ reverts Plone back to sorting control panels by title.
 
 Until a new Plone release (> 5.2.1) includes that merged PR, use this add-on to accomplish the same.
 
